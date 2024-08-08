@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Search App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="searchKey">
+            <p>Search for Pokémon Name or ID:</p>
+            <input type="text" id="search-input" required>
+            <button id="search-button" type ="submit">Search</button>
+        </div>
+        <div class="pokemonImgAndName">
+            <h3 class="name_id">
+                <span id="pokemon-name">NIDORAN-F</span><span id ="pokemon-id">#29</span>
+            </h3>
+            <h4 class="weight_height">
+                <span id="weight">Weight: 70</span><span id ="height">Height: 4</span>
+            </h4>
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png" id="sprite" alt="Pokemon Img">
+            <div id="types">
+                <div class="type poison">POISON</div>
+            </div>
+        </div>
+        <div class="stats">
+            <span>Base</span><span>Stats</span>
+            <span>HP:</span><span id="hp">55</span>
+            <span>Attack:</span><span id="attack">57</span>
+            <span>Defense:</span><span id="defense">42</span>
+            <span>Sp. Attack:</span><span id="special-attack">40</span>
+            <span>Sp. Defense:</span><span id="special-defense">40</span>
+            <span>Speed:</span><span id="speed">41</span>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
